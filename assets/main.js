@@ -56,7 +56,7 @@
           "<p>An international, multidisciplinary, peer-reviewed, open-access journal published by Lifeline Emed Companies LLC.</p>" +
           '<div class="contacts">' +
             '<a href="mailto:submissions@ajri.org">submissions@ajri.org</a>' +
-            '<span>910 Bergen Avenue, Suite 209,<br>Jersey City, NJ 07306</span>' +
+            '<span>342 Sip Ave, Bsmt,<br>Jersey City, New Jersey 07306</span>' +
           "</div>" +
         "</div>" +
         '<div><h4>Journal</h4><ul>' +
