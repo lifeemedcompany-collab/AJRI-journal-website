@@ -120,6 +120,11 @@ body.has-hero .jnav:not(.scrolled) .jnav__links .submit-inline a:hover{color:#2a
   border-radius:999px;padding:8px 13px;margin:6px 0}
 .jnav__links .submit-inline a::after{display:none}
 .jnav__links .submit-inline a:hover{box-shadow:0 8px 20px rgba(194,145,47,.35)}
+/* Submit button lives outside the scrolling links, so it never overlaps or clips */
+.jnav__submit{flex:none;white-space:nowrap;color:#2a1d05;font-weight:700;font-size:12.5px;
+  background:linear-gradient(135deg,var(--gold-soft),var(--gold));padding:9px 16px;border-radius:999px;
+  box-shadow:0 6px 16px rgba(194,145,47,.3);transition:box-shadow .2s,transform .15s}
+.jnav__submit:hover{box-shadow:0 9px 22px rgba(194,145,47,.42);transform:translateY(-1px)}
 
 /* mobile drawer */
 .jnav__drawer{position:fixed;inset:var(--nav-h) 0 auto 0;background:#fff;border-bottom:1px solid var(--border);
@@ -233,8 +238,12 @@ h1,h2,h3{color:var(--navy);letter-spacing:-.4px;line-height:1.12}
 .eic__cols li::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;border-radius:50%;background:var(--gold)}
 /* stronger, readable backdrop for the text-dense EIC panel */
 body.has-hero .container .panel.eic{background:rgba(8,14,26,.93);border-color:rgba(255,255,255,.15);backdrop-filter:blur(18px)}
+.eic__bio{margin-top:14px;line-height:1.65;font-size:14.5px;color:var(--muted)}
+.eic__bio b{color:var(--navy)}
 body.has-hero .eic .eic__affil,
+body.has-hero .eic .eic__bio,
 body.has-hero .eic .eic__cols li{color:rgba(255,255,255,.9)}
+body.has-hero .eic .eic__bio b{color:#fff}
 body.has-hero .eic .eic__contact .ph{color:rgba(255,255,255,.82)}
 
 /* tag pills list */
@@ -396,6 +405,10 @@ body.has-hero .eic .eic__contact .ph{color:rgba(255,255,255,.82)}
 .paper figure{margin:24px 0}
 .paper figure img{width:100%;border:1px solid var(--border);border-radius:12px;background:#fff}
 .paper figcaption{font-size:13px;color:#5b6b82;margin-top:9px;text-align:center}
+.paper .figure-note{font-size:13.5px;color:#5b6b82;background:var(--surface);border-left:3px solid var(--gold);padding:10px 14px;border-radius:0 8px 8px 0;margin:16px 0}
+.paper .figure-note em{font-style:normal}
+.paper ol.reflist{font-size:13px;gap:6px;color:#5b6b82}
+.paper ol.reflist li{padding-left:2px}
 .article-head-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:rgba(255,255,255,.85);margin-top:14px}
 .article-head-meta b{color:#fff}
 
@@ -430,6 +443,7 @@ body.has-hero .eic .eic__contact .ph{color:rgba(255,255,255,.82)}
 /* ---------- Responsive ---------- */
 @media(max-width:1080px){
   .jnav__links{display:none}
+  .jnav__submit{display:none}
   .jnav__burger{display:block}
 }
 @media(max-width:980px){

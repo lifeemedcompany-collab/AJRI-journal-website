@@ -8,7 +8,7 @@
     { label: "Editorial Board", href: "editorial-board.html" },
     { label: "Aims & Scope", href: "aims-scope.html" },
     { label: "Peer Review", href: "peer-review.html" },
-    { label: "Publication Ethics", href: "publication-ethics.html" },
+    { label: "Policies", href: "policies.html" },
     { label: "Author Guidelines", href: "author-guidelines.html" },
     { label: "Current Issue", href: "current-issue.html" },
     { label: "Archives", href: "archives.html" },
@@ -35,8 +35,8 @@
             '<span class="brand__name"><b>AJRI</b></span></a>' +
           '<ul class="jnav__links">' +
             NAV_LINKS.map(function (l) { return "<li>" + linkHtml(l) + "</li>"; }).join("") +
-            '<li class="submit-inline"><a href="submit-manuscript.html">Submit Manuscript</a></li>' +
           "</ul>" +
+          '<a class="jnav__submit" href="submit-manuscript.html">Submit Manuscript</a>' +
           '<button class="jnav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>' +
         "</div>" +
       "</div>" +
@@ -70,12 +70,13 @@
           '<li><a href="author-guidelines.html">Author Guidelines</a></li>' +
           '<li><a href="peer-review.html">Peer Review Process</a></li>' +
           '<li><a href="publication-ethics.html">Publication Ethics</a></li>' +
+          '<li><a href="policies.html">Policies</a></li>' +
           '<li><a href="submit-manuscript.html">Submit Manuscript</a></li>' +
         "</ul></div>" +
         '<div><h4>Publisher</h4><ul>' +
-          '<li><a href="https://lifeline-emed-v4.vercel.app/" target="_blank" rel="noopener">Lifeline Emed Companies</a></li>' +
-          '<li><a href="https://lifeline-emed-v4.vercel.app/conferences.html" target="_blank" rel="noopener">Conferences</a></li>' +
-          '<li><a href="https://lifeline-emed-v4.vercel.app/publications.html" target="_blank" rel="noopener">Publications</a></li>' +
+          '<li><a href="https://lifelineemed.com/" target="_blank" rel="noopener">Lifeline Emed Companies</a></li>' +
+          '<li><a href="https://lifelineemed.com/conferences.html" target="_blank" rel="noopener">Conferences</a></li>' +
+          '<li><a href="https://lifelineemed.com/publications.html" target="_blank" rel="noopener">Publications</a></li>' +
           '<li><a href="contact.html">Contact the Journal</a></li>' +
         "</ul></div>" +
       "</div>" +
