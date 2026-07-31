@@ -55,7 +55,7 @@
             '<span class="brand__name"><b>AJRI</b><span>American Journal of Research &amp; Innovation</span></span></a>' +
           "<p>An international, multidisciplinary, peer-reviewed, open-access journal published by Lifeline Emed Companies LLC.</p>" +
           '<div class="contacts">' +
-            '<a href="mailto:submissions@ajri.org">submissions@ajri.org</a>' +
+            '<a href="mailto:info@lifelineemed.com">info@lifelineemed.com</a>' +
             '<span>342 Sip Ave, Bsmt,<br>Jersey City, New Jersey 07306</span>' +
           "</div>" +
         "</div>" +
