@@ -246,6 +246,15 @@ body.has-hero .eic .eic__cols li{color:rgba(255,255,255,.9)}
 body.has-hero .eic .eic__bio b{color:#fff}
 body.has-hero .eic .eic__contact .ph{color:rgba(255,255,255,.82)}
 
+/* ---------- Journal information hub (homepage directory) ---------- */
+.info-hub .card{display:flex;flex-direction:column;text-align:left}
+.info-hub .card h3{margin-top:14px;font-size:16px}
+.info-hub .card p{flex:1}
+.info-hub .card .card-more{margin-top:14px;color:var(--gold);font-weight:700;font-size:12.5px;letter-spacing:.2px}
+.info-hub .card:hover .card-more{color:var(--gold-soft)}
+.card__icon.num{font-weight:800;font-size:16px;letter-spacing:.5px}
+body.has-hero .info-hub .card .card-more{color:var(--gold-soft)}
+
 /* tag pills list */
 .pill-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .pill-list span{font-size:13px;background:var(--surface);border:1px solid var(--border);color:var(--navy);padding:6px 12px;border-radius:999px}
