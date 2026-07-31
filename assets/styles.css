@@ -515,6 +515,13 @@ body.has-hero .info-hub .card .card-more{color:var(--gold-soft)}
 .hero-fixed-bg::after{content:"";position:absolute;inset:0;background:
   linear-gradient(90deg,rgba(5,10,20,.74) 0%,rgba(5,10,20,.5) 44%,rgba(5,10,20,.32) 100%),
   linear-gradient(180deg,rgba(5,10,20,.4) 0%,rgba(5,10,20,.28) 40%,rgba(5,10,20,.58) 100%)}
+/* Homepage: exact same skyline background & tone as the Lifeline homepage */
+body[data-fixed-bg="assets/hero-city.jpg"] .hero-fixed-bg{
+  background-color:#0b2240;background-position:center 42%;background-size:cover;
+  filter:saturate(1.08) contrast(1.04) brightness(1.02)}
+body[data-fixed-bg="assets/hero-city.jpg"] .hero-fixed-bg::after{background:
+  linear-gradient(90deg,rgba(5,10,20,.66) 0%,rgba(5,10,20,.32) 44%,rgba(5,10,20,.1) 100%),
+  linear-gradient(180deg,rgba(5,10,20,.26) 0%,transparent 34%,rgba(5,10,20,.5) 100%)}
 
 /* sections go transparent so the fixed image shows through everywhere */
 body.has-hero section{background:transparent}
