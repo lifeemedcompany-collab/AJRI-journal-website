@@ -82,7 +82,7 @@
       "</div>" +
       '<div class="footer__bottom">' +
         "<p>© 2026 American Journal of Research &amp; Innovation (AJRI) · Published by Lifeline Emed Companies LLC.</p>" +
-        '<span class="tagline">ISSN Pending · DOI Registration Planned · Open Access</span>' +
+        '<span class="tagline">ISSN 3144-1726 · DOI Registration Planned · Open Access</span>' +
       "</div>" +
     "</div></footer>";
 
